@@ -15,7 +15,7 @@
 }
 .heart::after {
   background-color: pink;
-  content: "";
+  content: ""; /* "" just means the string is empty or an empty string */
   border-radius: 50%;
   position: absolute;
   width: 50px;
@@ -24,7 +24,7 @@
   left: 25px;
 }
 .heart::before {
-  content: "";
+  content: ""; /* "" just means the string is empty or an empty string */
   background-color: pink;
   border-radius: 50%;
   position: absolute;
